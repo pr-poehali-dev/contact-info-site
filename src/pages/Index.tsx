@@ -38,8 +38,8 @@ const Index = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
 
-            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white hover:text-primary font-semibold px-8 py-4 text-lg">
-              <a href="#contact">Связаться с нами</a>
+            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white hover:text-primary font-semibold px-8 py-4 text-lg" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
+              Связаться с нами
             </Button>
           </div>
         </div>
