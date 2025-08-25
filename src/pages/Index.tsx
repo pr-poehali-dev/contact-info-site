@@ -11,9 +11,7 @@ const Index = () => {
       <nav className="sticky top-0 bg-white/80 backdrop-blur-md border-b border-gray-200 z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="font-inter font-bold text-2xl text-gray-900">
-              Компания
-            </div>
+            <div className="font-inter font-bold text-2xl text-gray-900">Маринефть</div>
             <div className="hidden md:flex space-x-8">
               <a href="#hero" className="font-open-sans text-gray-600 hover:text-primary transition-colors">Главная</a>
               <a href="#services" className="font-open-sans text-gray-600 hover:text-primary transition-colors">Услуги</a>
